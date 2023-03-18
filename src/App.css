@@ -1,3 +1,42 @@
+@font-face {
+  font-family: kalameh_light;
+  src: url(./fonts/Kalameh_Regular.ttf) format('truetype');
+  font-weight: 300;
+  font-style: normal
+}
+
+@font-face {
+  font-family: kalameh_bold;
+  src: url(./fonts/Kalameh_Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: kalameh_thin;
+  src: url(./fonts/Kalameh_thin.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: kalameh_black;
+  src: url(./fonts/Kalameh_Black.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: iranSansLight;
+  src: url(./fonts/IRANSansWeb-FaNum-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: iranSansBold;
+  src: url(./fonts/IRANSansWeb-FaNum-Bold.ttf) format('truetype');
+}
+.myFont {
+  font-family: iranSansLight, serif;
+}
+.kalameh_black{
+  font-family: kalameh_black, serif;
+}
+
+
 .App {
   text-align: center;
 }

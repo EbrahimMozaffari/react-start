@@ -1,0 +1,25 @@
+.ex-item{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    padding: 10px;
+    border-radius: 15px;
+    background: aliceblue;
+    color: black;
+    text-align: left;
+    justify-content:space-between;
+}
+
+.ex-item1{
+    display: grid;
+    padding: 10px;
+    border-radius: 15px;
+
+
+}
+.ex-item1__price{
+background: burlywood;
+    border-radius: 15px;
+    padding: 15px;
+    border: cadetblue 1px solid;
+}
