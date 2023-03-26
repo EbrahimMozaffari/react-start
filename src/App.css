@@ -85,3 +85,10 @@
   border-radius: 12px;
   box-shadow: 0 1px 8px #636161;
 }
+.mainCard{
+background: cadetblue;
+  width: 50%;
+  height: auto;
+  padding: 15px;
+  border-radius: 15px;
+}
