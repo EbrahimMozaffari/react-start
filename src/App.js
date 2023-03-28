@@ -1,7 +1,9 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import ExpenseItem from "./components/ExpenseItem";
 import Card from "./components/expense/Card";
+
+import NewExpense from "./components/newExpense/newExpense";
 
 const App = () => {
     const expenses = [
@@ -18,6 +20,7 @@ const App = () => {
 
             {/*</header>*/}
             <Card className="App-header">
+                <NewExpense />
                 {/*<img src={logo} className="App-logo" alt="logo"/>*/}
                 <p className="myFont">تست فونت</p>
                 <p className="kalameh_black">تست فونت</p>
