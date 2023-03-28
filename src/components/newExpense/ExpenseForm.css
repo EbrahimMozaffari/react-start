@@ -1,0 +1,18 @@
+.new-expense__input{
+    display: flex;
+}
+.new-expense__input .col-6{
+    padding: 10px;
+    width: 50%;
+    display: grid;
+}
+
+.new-expense-actions button{
+    padding: 5px;
+    background: aquamarine;
+    border-radius: 10px;
+    border: solid gray 1px;
+    cursor: pointer;
+
+
+}
