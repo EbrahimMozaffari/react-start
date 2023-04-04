@@ -4,7 +4,6 @@ import ExpenseDate from "./expense/ExpenseDate";
 import Card from "./expense/Card";
 function ExpenseItem(props) {
     const [expenseTitle,setTitle] = useState(props.title);
-    console.log('expense item evaluate')
     // const expenseDate = new Date(2021, 2 ,28);
     // const expenseTitle = 'Car Insurance';
     // const expenseAmount = 294.55;
