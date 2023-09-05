@@ -34,7 +34,7 @@ const App = () => {
                 <NewExpense onAddExpenseHandler={addExpenseHandler} />
                 {/*<img src={logo} className="App-logo" alt="logo"/>*/}
                 <p className="myFont">تست فونت</p>
-                <p className="kalameh_black">تست فونت</p>
+                <p className="kalameh_black">تست فونت1</p>
                 <Expenses expensesData={expensesData} />
 
                 <p>
